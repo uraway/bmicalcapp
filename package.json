@@ -1,6 +1,7 @@
 {
   "name": "bmicalcapp",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "BMI calculator",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -18,15 +19,21 @@
     "eslint": "1.9.0",
     "eslint-plugin-react": "3.8.0"
   },
+  "engines" : { "node" : "0.12.7" },
   "main": "app.js",
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "babel-preset-react": "^6.1.18",
-    "babelify": "^7.2.0",
-    "browserify": "^12.0.1",
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uraway/bmicalcapp.git"
+  },
+  "author": "uraway",
+  "bugs": {
+    "url": "https://github.com/uraway/bmicalcapp/issues"
+  },
+  "homepage": "http://uraway.hatenablog.com/"
+}
 }
